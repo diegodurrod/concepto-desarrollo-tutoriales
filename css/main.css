@@ -1,0 +1,302 @@
+/* ==========================================================================
+   CSS Personalizado
+   ========================================================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+#representacion {
+    margin-top: 55px;
+}
+
+#division {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1F5DB5;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#numerador,
+#denominador {
+    font-size: 36px;
+    text-align: center;
+    padding: 12px 0;
+}
+
+#btn-regenerar {
+    margin-top: 40px;
+}
+
+.fraccion {
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 235px;
+}
+
+.divTable {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.divTableRow {
+    height: 100%;
+    display: table-row;
+}
+
+.divTableCell {
+    border: 1px solid #102A49!important;
+    display: table-cell;
+    height: 100px;
+}
+
+.divTableBody {
+    display: table-row-group;
+}
+
+.colored {
+    width: 1%;
+    height: 100%;
+    background-color: #1F5DB5;
+}
+
+.center {
+    text-align: center;
+}
+
+.col-md-12 {
+    padding: 20px 0;
+}
+
+
+/* ==========================================================================
+   Personalización de SweetAlert2
+   ========================================================================== */
+
+.swal2-popup {
+    padding: 3.25em;
+}
+
+.swal2-popup .swal2-title {
+    font-size: 36px;
+}
+
+.swal2-popup .swal2-content {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #545454;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+    z-index: 1;
+    word-wrap: break-word;
+}
+
+.swal2-icon {
+    position: relative;
+    justify-content: center;
+    width: 7em;
+    height: 7em;
+    margin: 1.25em auto 1.875em;
+    border: 0.45em solid transparent;
+    border-radius: 50%;
+    line-height: 5em;
+    cursor: default;
+    box-sizing: content-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    zoom: normal;
+}
+
+.swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+    display: block;
+    position: absolute;
+    top: 3.3125em;
+    width: 3.9375em;
+    height: 0.3125em;
+    border-radius: 0.125em;
+    background-color: #f27474;
+}
+
+.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right] {
+    right: 1.5em;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+    display: block;
+    position: absolute;
+    top: 3.3125em;
+    width: 3.9375em;
+    height: 0.3125em;
+    border-radius: 0.125em;
+    background-color: #f27474;
+}
+
+.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left] {
+    left: 1.5625em;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.swal2-popup .swal2-styled.swal2-confirm {
+    border-radius: 0;
+    font-size: 1.5625em;
+}
+
+
+/* ==========================================================================
+   Personalización botones Bootstrap
+   ========================================================================== */
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-default {
+    border: 2px solid #C4C4C4;
+    color: #737373;
+    padding: 12px 22px;
+    background-image: none;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open>.dropdown-toggle.btn-default {
+    background: #FFFFFF;
+    border-color: #949494;
+    color: #737373;
+}
+
+.btn-default:active,
+.btn-default.active {
+    border-color: #737373;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn-success {
+    background: #00bf6f;
+    color: #ffffff;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open>.dropdown-toggle.btn-success {
+    background: #39bf87;
+}
+
+.btn-success:active,
+.btn-success.active {
+    background: #008c52;
+    box-shadow: none;
+}
+
+.btn-info {
+    background: #31cde8;
+    color: #ffffff;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open>.dropdown-toggle.btn-info {
+    background: #5fd4e8;
+}
+
+.btn-info:active,
+.btn-info.active {
+    background: #35a2b5;
+    box-shadow: none;
+}
+
+.btn-warning {
+    background: #eb8f34;
+    color: #ffffff;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open>.dropdown-toggle.btn-warning {
+    background: #eba259;
+}
+
+.btn-warning:active,
+.btn-warning.active {
+    background: #b87430;
+    box-shadow: none;
+}
+
+.btn-danger {
+    background: #f25454;
+    color: #ffffff;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open>.dropdown-toggle.btn-danger {
+    background: #f26d6d;
+}
+
+.btn-danger:active,
+.btn-danger.active {
+    background: #bf4343;
+    box-shadow: none;
+}
