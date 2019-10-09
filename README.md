@@ -50,4 +50,4 @@ Añadir otro botón de validación, que al accionarlo comprueba si la fracción 
 
 ## Authors
 
-* **Diego Durán Rodríguez** - [diegodurrod](https://github.com/PurpleBooth)
+* **Diego Durán Rodríguez** - [diegodurrod](https://github.com/diegodurrod)
